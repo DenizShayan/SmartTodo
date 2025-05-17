@@ -1,12 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-// import './App.css'
-
+import { useState } from 'react';
 function App() {
+  const [task, setTask] = useState('');
   return (
-    <div className="flex items-center justify-center h-screen bg-blue-500">
-      <h1 className="text-white text-4xl font-bold">SmartTodo</h1>
+    <div className='p-4 max-w-md mx-auto'>
+      <h1 className='text-2x1 font-bold mb-4'>Smart Todo</h1>
     </div>
   );
 }
