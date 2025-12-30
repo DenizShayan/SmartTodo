@@ -11,3 +11,8 @@ components, JSX, and basic state management.
 ## Purpose
 This project was created as a learning-focused application and serves
 as a foundation for more advanced React projects.
+
+## Features
+- Add, mark as done, and delete tasks
+- Built with React state management and Tailwind CSS
+
